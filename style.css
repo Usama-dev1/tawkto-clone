@@ -10,18 +10,17 @@ body {
     font-family: "Source Code Pro", monospace;
     font-size: 1rem;
     background-color: whitesmoke;
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
     justify-content: center;
-    box-shadow:inset 0 0 0 0.3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 0.3px rgba(0, 0, 0, 0.3);
     display: flex;
 }
 
 .container {
-    min-width: 100%;
+    width: 100%;
     padding: 0 60px;
     height: auto;
     display: flex;
@@ -142,7 +141,7 @@ main {
     display: flex;
     border-radius: 1px;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     gap: 5px;
 }
 
@@ -151,20 +150,22 @@ main {
     gap: 10px;
 }
 
-.logo-banner-area
-{    width: 90vw;
+.logo-banner-area {
+    width: 100%;
+    max-width: 1200px;
     padding: 0 40px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-.logo-banner-area ul{
+.logo-banner-area ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.logo-banner-area ul>li{
+
+.logo-banner-area ul>li {
     list-style: none;
-    text-decoration:none ;
+    text-decoration: none;
     margin: 30px;
 }
