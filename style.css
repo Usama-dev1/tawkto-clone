@@ -174,7 +174,7 @@ main {
     background-color: #533AFD;
 }
 .hero-section button:first-child:hover  {
-border: 1px solid black;
+background-color: #422dcc;
 }
 
 .hero-section button:nth-child(2) {
@@ -189,7 +189,7 @@ border: 1px solid black;
     gap: 5px;
 }
 .hero-section button:nth-child(2):hover {
-    border: 1px solid black;
+    border: 1px solid #533AFD;
 }
 
 .hbtn-container {
