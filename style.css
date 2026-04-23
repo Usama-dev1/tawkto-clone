@@ -219,3 +219,36 @@ logo banner area */
     text-decoration: none;
     margin: 30px;
 }
+
+
+
+/* test container */
+.test-container{
+
+    background-color:white;
+display: flex;
+justify-content:end;
+align-items: center;
+}
+
+.box1{
+background-color: brown;
+width:400px ;
+height: 100px;
+}
+.box2{
+background-color: aqua;
+width: 200px;
+height: 400px;
+}
+.box3{
+background-color: blueviolet;
+width: 300px;
+height: 300px;
+}
+.box4{
+background-color: orange;
+width: 300px;
+height: 100px;
+
+}
