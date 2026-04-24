@@ -395,3 +395,7 @@ footer {
   border-radius: 10px;
   color: black;
 }
+
+.icon-x{
+  display: none;
+}
