@@ -1,9 +1,9 @@
 function toggleChat() {
-  const body = document.querySelector('.widget-body');
-  if (body.style.display === 'flex') {
-    body.style.display = 'none';
+  const icon = document.querySelector('.widget-body');
+  if (icon.style.display === 'flex') {
+    icon.style.display = 'none';
   } else {
-    body.style.display = 'flex';
+    icon.style.display = 'flex';
   }
 }
 
