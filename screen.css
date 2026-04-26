@@ -26,7 +26,7 @@
 
   .cta-wrapper span,
   p {
-    font-size: 0.8rem;
+    font-size: clamp(0.7rem, 1.5vw, 1rem);
   }
   .hamburger {
     display: flex;
