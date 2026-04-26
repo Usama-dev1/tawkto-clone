@@ -2,6 +2,10 @@
   .nav-links {
     display: none;
   }
+  .cta-wrapper span,
+  p {
+    font-size: 0.8rem;
+  }
   .footer-top {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -19,8 +23,17 @@
   .nav-container-2 {
     display: none;
   }
+
+  .cta-wrapper span,
+  p {
+    font-size: 0.8rem;
+  }
   .hamburger {
     display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 180px;
+    height: 180px;
   }
   .hero-review-wrapper p {
     text-align: center;
