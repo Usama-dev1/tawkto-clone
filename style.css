@@ -339,7 +339,7 @@ footer {
 .footer-top a {
   color: white;
   text-decoration: none;
-  font-size: 14px;
+  font-size: clamp(0.7rem, 1vw, 1rem);
 }
 
 .footer-top a:hover {
@@ -350,6 +350,7 @@ footer {
   display: flex;
   gap: 30px;
   list-style: none;
+  font-size: clamp(0.7rem, 1vw, 1rem);
   padding: 0;
   margin: 0;
 }
@@ -380,7 +381,7 @@ footer {
 .footer-col ul li a {
   color: #aaa;
   text-decoration: none;
-  font-size: 14px;
+  font-size: clamp(0.7rem, 1vw, 1rem);
   transition: color 0.2s;
 }
 
@@ -402,7 +403,7 @@ footer {
   flex-wrap: wrap;
   gap: 16px;
   padding-top: 24px;
-  font-size: 13px;
+  font-size: clamp(0.7rem, 1vw, 1rem);
   color: #888;
 }
 
@@ -437,7 +438,7 @@ footer {
 }
 
 .copyright-text {
-  font-size: x-small;
+  font-size: clamp(0.5rem, 1vw, 1rem);
   padding: 20px 0px;
   font-weight: 900;
 }
