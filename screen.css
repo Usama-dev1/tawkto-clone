@@ -14,3 +14,14 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width:500px) {
+    .nav-container-2{
+        display: hidden;
+    }
+    
+}
+
+nav-container-2
+
+
