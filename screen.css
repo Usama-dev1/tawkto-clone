@@ -1,3 +1,4 @@
+/* below 768px for tablet */
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
@@ -19,6 +20,7 @@
   }
 }
 
+/* below 500px for mobile screens */
 @media screen and (max-width: 500px) {
   .nav-container-2 {
     display: none;
