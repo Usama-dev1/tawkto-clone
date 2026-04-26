@@ -416,7 +416,7 @@ footer {
 .footer-bottom-links a {
   color: #888;
   text-decoration: none;
-  font-size: clamp(0.5rem, 1vw, 1rem);
+  font-size: clamp(0.4rem, 1vw, 1rem);
 }
 
 .footer-bottom-links a:hover {
