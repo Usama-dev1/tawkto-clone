@@ -391,6 +391,7 @@ footer {
 
 .last-col hr {
   margin-top: 20px;
+  width: 100%;
   border: none;
   height: 2px;
   background-color: green;
@@ -415,6 +416,7 @@ footer {
 .footer-bottom-links a {
   color: #888;
   text-decoration: none;
+  font-size: clamp(0.5rem, 1vw, 1rem);
 }
 
 .footer-bottom-links a:hover {
@@ -443,7 +445,7 @@ footer {
   font-weight: 900;
 }
 
-.language-bar {
+.last-col .language-bar {
   background-color: white;
   height: 60px;
 }
