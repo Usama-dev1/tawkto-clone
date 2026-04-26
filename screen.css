@@ -22,10 +22,6 @@
   .hamburger {
     display: flex;
   }
-  .star-review {
-    height: 0.8rem;
-    width: 0.8rem;
-  }
   .hero-review-wrapper p {
     text-align: center;
     font-size: 0.5rem;
