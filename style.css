@@ -189,6 +189,76 @@ header {
   font-weight: 600;
 }
 
+.cta-wrapper{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  gap:40px;
+  align-items: center;
+}
+.cta-btn{
+padding: 25px 50px;
+font-size: 20px;;
+background-color: #1a1a2e;
+color: white;
+border-radius: 4px;
+}
+.cta-btn i{
+width: 20px;
+height: 20px;
+}
+
+
+/* cta btns */
+.bubble-btn{
+      display: inline-block;
+        border-radius: 36px;
+        padding: 4px 18px;
+        margin: 4px 2px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.01em;
+}
+
+.bubble-pink {
+background: linear-gradient(180deg, rgba(228, 138, 191, 0.06) 0%, rgba(228, 138, 191, 0) 100%);
+  color: #E48ABF;
+  border: 1px solid #E48ABF;
+}
+.bubble-orange {
+  background: linear-gradient(180deg, rgba(233, 143, 83, 0.06) 0%, rgba(233, 143, 83, 0) 100%);
+    color: #E98F53;
+    border: 1px solid #E98F53;
+}
+
+.bubble-blue {
+  background: linear-gradient(180deg, rgba(153, 210, 251, 0.06) 0%, rgba(153, 210, 251, 0) 100%);
+    color: #3d85c6;
+    border: 1px solid #3d85c6;
+}
+.bubble-green {
+      background: linear-gradient(180deg, rgba(255, 207, 39, 0.06) 0%, rgba(255, 207, 39, 0) 100%);
+        color: #22BB31;
+        border: 1px solid #22BB31;
+}
+
+.cta-free{
+font-weight: bold;
+}
+.cta-read{
+color: #1a1a2e;
+}
+
+
+
+
+
+
+
 /* footer area */
 
 footer {
@@ -321,6 +391,9 @@ footer {
   height: 60px;
 }
 
+
+/* chat widget starts here */
+
 .chat-widget {
   position: fixed;
   bottom: 30px;
@@ -397,3 +470,4 @@ footer {
 .icon-x{
   display: none;
 }
+/* chat widget classes end here */
