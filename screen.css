@@ -27,6 +27,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 20px;
     gap: 50px;
     background-color: #f8fafd;
     width: 350px;
