@@ -33,3 +33,10 @@ const closeBtn = document.querySelector(".close-btn-menu");
 closeBtn.addEventListener("click", () => {
   links.style.display = "none";
 });
+
+// if user resizes reload
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    location.reload();
+  }
+});
