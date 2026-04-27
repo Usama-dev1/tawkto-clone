@@ -1,7 +1,63 @@
 /* below 768px for tablet */
+@media screen and (min-width: 768px) {
+  .mobile-login {
+    display: none;
+    width: 100px;
+  }
+  .mobile-login button {
+    width: 100px;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .close-btn-menu {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    background-color: #f8fafd;
+    width: 320px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .close-btn-menu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .mobile-login {
+    display: none;
+  }
+  .nav-container-2 {
+    display: flex;
   }
   .cta-wrapper span,
   p {
@@ -32,20 +88,28 @@
 
 /* below 500px for mobile screens */
 @media screen and (max-width: 500px) {
-  .nav-container-2 {
-    display: none;
+  /* .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    background-color: #f8fafd;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    z-index: 999;
   }
+
+  .nav-links.open {
+    display: flex;
+  } */
 
   .cta-wrapper span,
   p {
     font-size: clamp(0.7rem, 1.5vw, 1rem);
-  }
-  .hamburger {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 180px;
-    height: 180px;
   }
   .hero-review-wrapper p {
     text-align: center;
@@ -56,5 +120,33 @@
   }
   .span-label-text {
     font-size: 0.7rem;
+  }
+  .nav-container-2 {
+    display: none;
+  }
+  .mobile-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mobile-login .login-btn {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .mobile-login .started-btn {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
   }
 }

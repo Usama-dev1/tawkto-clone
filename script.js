@@ -15,3 +15,21 @@ function toggleChat() {
 
 const chatIcon = document.querySelector(".chat-widget");
 chatIcon.addEventListener("click", toggleChat);
+
+const hamBtn = document.querySelector("#hamburger");
+const links = document.querySelector(".nav-links");
+function toggleHamBtn() {
+  if (links.style.display === "flex") {
+    links.style.display = "none";
+  } else {
+    links.style.display = "flex";
+  }
+}
+
+hamBtn.addEventListener("click", toggleHamBtn);
+
+const closeBtn = document.querySelector(".close-btn-menu");
+
+closeBtn.addEventListener("click", () => {
+  links.style.display = "none";
+});
