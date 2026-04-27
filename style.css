@@ -52,7 +52,7 @@ header {
 .nav-links > li a {
   text-decoration: none;
   color: black;
-  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
 }
 .logo {
   padding: 10px;

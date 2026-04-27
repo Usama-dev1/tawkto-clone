@@ -37,10 +37,6 @@
     z-index: 999;
   }
 
-  .nav-links.open {
-    display: flex;
-  }
-
   .hamburger {
     display: block;
   }
