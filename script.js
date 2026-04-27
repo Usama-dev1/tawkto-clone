@@ -35,8 +35,8 @@ closeBtn.addEventListener("click", () => {
 });
 
 // if user resizes reload
-window.addEventListener("resize", () => {
-  if (window.innerWidth > 768) {
-    location.reload();
-  }
-});
+// window.addEventListener("resize", () => {
+//   if (window.innerWidth > 768) {
+//     location.reload();
+//   }
+// });
